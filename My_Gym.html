@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkar's gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('req/bg.jpg');
+            background-size: 1367px 951px;
+            background-repeat: no-repeat;
+            font-family: 'Balthazar', serif;
+        }
+        .left{
+            display:inline-block;
+            position: absolute;
+            left: 34px;
+            top: 10px;
+        }
+        .left img{
+            width: 90px;
+            filter: invert(94%);
+        }
+        .left div{
+            text-align:center ;
+            color: honeydew;
+        }
+        .med{
+            display: block;
+            position:absolute;
+            left:210px;
+            top:10px;
+            /* border: 4px solid red; */
+        }
+        .right{
+            display: inline-block;
+            /* border: 5px solid black; */
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            font-size: 15px;
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding:33px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: grey;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color:#fffde7;
+            border-radius: 10px;
+            color: black;
+            padding: 7px;
+            cursor: pointer;
+            font-family: 'Balthazar', serif;
+        }
+        .btn:hover{
+            text-decoration: underline;
+            background-color:grey;
+            color: rgb(107, 79, 79);
+        }
+        .container{
+            color: white;
+            border: 2px solid #ffffff73;
+            margin: 166px 151px;
+            padding: 12px 25px;
+            width: 33%;
+            border-radius: 25px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 63%;
+            padding: 7px;
+            border: 2px solid #ffffff;
+            margin: 8px auto;
+            border-radius: 8px;
+            background-color: #ffffff14;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 63%;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="req/logo2.jpg" alt="">
+            <div>Omkar Fitness</div>
+        </div>
+        <div class="med">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join the best of the ghatkopar Now</h1>
+            <form action="noaction.php"> 
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Phone Number">
+                </div>
+                <button class="btn">Submit Now</button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
